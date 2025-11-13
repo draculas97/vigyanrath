@@ -43,6 +43,16 @@ const Hero = () => {
                 <p className="text-sm text-muted-foreground">Across India</p>
               </div>
             </div>
+
+            <div className="flex items-center gap-3 bg-card p-6 rounded-xl shadow-lg border border-border">
+              <div className="w-10 h-10 flex items-center justify-center bg-accent/10 rounded-full">
+                <span className="text-2xl">🔬</span>
+              </div>
+              <div className="text-left">
+                <p className="font-heading font-bold text-3xl text-accent">309</p>
+                <p className="text-sm text-muted-foreground">Scientific Concepts</p>
+              </div>
+            </div>
           </div>
 
           {/* CTAs */}

@@ -21,8 +21,8 @@ All colors MUST be HSL.
     --primary: 150 65% 32%;
     --primary-foreground: 0 0% 100%;
 
-    /* Educational Blue - Trust/Information */
-    --secondary: 210 100% 20%;
+    /* Dark Green - Trust/Information */
+    --secondary: 150 50% 25%;
     --secondary-foreground: 0 0% 100%;
 
     /* Vibrant Pink/Red - High-Intent Actions */
