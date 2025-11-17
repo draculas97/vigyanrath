@@ -87,20 +87,20 @@ const R3Section = () => {
                 <h3 className="font-heading font-bold text-2xl mt-2 mb-3">Rejoicing</h3>
               </div>
               <p className="text-muted-foreground mb-4">
-                Learning should be fun! Our interactive, hands-on approach turns science from a subject to memorize into an adventure to experience.
+                Learning should be joyful! We use the <strong>STEAM Method</strong>, where <strong>A</strong> stands for <strong>Art form</strong> in explaining science through storytelling, so children understand concepts sharply and extensively.
               </p>
               <ul className="space-y-2">
                 <li className="flex items-start gap-2 text-sm">
                   <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span>Interactive experiments</span>
+                  <span>Story-based science learning</span>
                 </li>
                 <li className="flex items-start gap-2 text-sm">
                   <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span>Engaging demonstrations</span>
+                  <span>Interactive demonstrations</span>
                 </li>
                 <li className="flex items-start gap-2 text-sm">
                   <CheckCircle2 className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                  <span>Joyful learning environment</span>
+                  <span>Memorable learning experiences</span>
                 </li>
               </ul>
             </div>

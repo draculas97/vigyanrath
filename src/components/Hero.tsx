@@ -39,7 +39,7 @@ const Hero = () => {
             <div className="flex items-center gap-3 bg-card p-6 rounded-xl shadow-lg border border-border">
               <MapPin className="w-10 h-10 text-secondary" />
               <div className="text-left">
-                <p className="font-heading font-bold text-3xl text-secondary">8+ States</p>
+                <p className="font-heading font-bold text-3xl text-secondary">6+ States</p>
                 <p className="text-sm text-muted-foreground">Across India</p>
               </div>
             </div>
@@ -49,7 +49,7 @@ const Hero = () => {
                 <span className="text-2xl">🔬</span>
               </div>
               <div className="text-left">
-                <p className="font-heading font-bold text-3xl text-accent">309</p>
+                <p className="font-heading font-bold text-3xl text-accent">800+</p>
                 <p className="text-sm text-muted-foreground">Scientific Concepts</p>
               </div>
             </div>
@@ -82,8 +82,8 @@ const Hero = () => {
 
           {/* Additional Info */}
           <p className="mt-12 text-sm text-muted-foreground max-w-2xl mx-auto">
-            Since 2009, the Vijnan Rath has been transforming science education in rural India,
-            reaching students across Southern states and Maharashtra with plans to expand nationwide.
+            Since 2009, the VigyanRath has been transforming science education in rural India,
+            reaching students across Southern states, Kerala, Karnataka, Maharashtra, Goa, and parts of Andhra Pradesh and Pondicherry—6+ States and Union Territories—with a vision to scale nationwide and complement government education efforts with practical hands-on science and mathematics models and experiments.
           </p>
         </div>
       </div>

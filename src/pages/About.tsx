@@ -44,11 +44,11 @@ const About = () => {
                   </p>
                 </div>
 
-                <div className="bg-card rounded-xl p-8 shadow-lg border border-border">
+              <div className="bg-card rounded-xl p-8 shadow-lg border border-border">
                   <Users className="w-12 h-12 text-secondary mb-4" />
                   <h3 className="font-heading font-bold text-2xl mb-4">Our Reach</h3>
                   <p className="text-muted-foreground">
-                    Operating across Southern states and Maharashtra, with a vision to scale nationwide and complement government education efforts.
+                    <strong>16+ Lakh Students</strong> reached across <strong>6 States</strong>, visiting <strong>4600+ Schools</strong> and <strong>300+ Colleges</strong>, with <strong>16 Years of Field Work</strong> and training almost <strong>One Lakh Teachers</strong>.
                   </p>
                 </div>
               </div>
@@ -63,16 +63,14 @@ const About = () => {
                     intelligence or interest, but due to lack of access to hands-on learning experiences.
                   </p>
                   <p className="text-foreground mb-4">
-                    Our flagship initiative, the <strong>Vijnan Rath</strong> (Science Chariot), was born from 
+                    Our flagship initiative, the <strong>VigyanRath</strong> (Science Chariot), was born from 
                     this insight. A mobile science laboratory that travels from school to school, bringing 
                     practical, activity-based science education to students who have never seen a test tube 
                     or conducted an experiment.
                   </p>
                   <p className="text-foreground mb-4">
-                    What started in a few schools in South India has grown into a national movement. Today, 
-                    we've reached over <strong>16 lakh students</strong> across <strong>8+ states</strong>, 
-                    trained hundreds of teachers, and inspired countless young minds to pursue careers in 
-                    science and technology.
+                    Since 2009, the VigyanRath has been transforming science education in rural India, 
+                    operating across Southern states, Kerala, Karnataka, Maharashtra, Goa, and some parts of Andhra Pradesh and Pondicherry—<strong>6+ States and Union Territories</strong>. We've reached over <strong>16+ Lakh students</strong>, visited <strong>4600+ schools</strong> and <strong>300+ colleges</strong>, and trained almost <strong>One Lakh teachers</strong> in <strong>16 years of field work</strong>.
                   </p>
                   <p className="text-foreground">
                     Our approach is simple but effective: make science <strong>Relevant</strong> to the curriculum, 

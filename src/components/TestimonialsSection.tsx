@@ -3,7 +3,7 @@ import { Quote } from "lucide-react";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      quote: "The Vijnan Rath transformed our school. Students who were afraid of science now eagerly wait for the next session. The hands-on approach makes complex concepts so simple.",
+      quote: "The VigyanRath transformed our school. Students who were afraid of science now eagerly wait for the next session. The hands-on approach makes complex concepts so simple.",
       author: "Priya Sharma",
       role: "School Principal, Karnataka",
     },
@@ -13,7 +13,7 @@ const TestimonialsSection = () => {
       role: "Science Teacher, Maharashtra",
     },
     {
-      quote: "My daughter never liked science before. After the Vijnan Rath visit, she's been doing experiments at home! The team's energy and dedication is truly inspiring.",
+      quote: "My daughter never liked science before. After the VigyanRath visit, she's been doing experiments at home! The team's energy and dedication is truly inspiring.",
       author: "Lakshmi Devi",
       role: "Parent, Tamil Nadu",
     },
@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
               Voices from the Field
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Hear from the teachers, parents, and students whose lives have been touched by the Vijnan Rath
+              Hear from the teachers, parents, and students whose lives have been touched by the VigyanRath
             </p>
           </div>
 

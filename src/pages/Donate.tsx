@@ -40,7 +40,7 @@ const Donate = () => {
             <div className="max-w-4xl mx-auto text-center">
               <Heart className="w-16 h-16 text-accent mx-auto mb-6" />
               <h1 className="font-heading font-bold text-5xl md:text-6xl mb-6 text-primary">
-                Fuel the Vijnan Rath
+                Fuel the VigyanRath
               </h1>
               <p className="text-xl text-foreground/80 mb-8">
                 Your contribution powers science education across rural India. Every donation directly impacts 
