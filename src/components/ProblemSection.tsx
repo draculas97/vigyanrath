@@ -1,70 +1,87 @@
-import { AlertCircle, BookOpen, Users } from "lucide-react";
+import { AlertTriangle, FlaskConical, Users, BookOpen } from "lucide-react";
 
 const ProblemSection = () => {
   return (
-    <section className="py-20 bg-secondary text-secondary-foreground">
+    <section className="py-20 bg-muted">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           {/* Section Header */}
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 bg-destructive/10 text-destructive px-4 py-2 rounded-full mb-4">
-              <AlertCircle className="w-5 h-5" />
-              <span className="font-heading font-semibold">The Critical Challenge</span>
+            <div className="inline-flex items-center gap-2 bg-accent/10 text-accent px-4 py-2 rounded-full mb-4">
+              <AlertTriangle className="w-5 h-5" />
+              <span className="font-heading font-semibold">The Challenge</span>
             </div>
-            <h2 className="font-heading font-bold text-4xl md:text-5xl mb-4">
-              The State of Science Education in Rural India
+            <h2 className="font-heading font-bold text-4xl md:text-5xl mb-4 text-primary">
+              The Science Education Gap in Rural India
             </h2>
-            <p className="text-lg text-secondary-foreground/80 max-w-3xl mx-auto">
-              Despite progress in enrollment, the quality of science education remains a critical concern
+            <p className="text-lg text-foreground/80 max-w-3xl mx-auto">
+              Despite the critical importance of science education, rural students across India face significant barriers that limit their potential and future opportunities.
             </p>
           </div>
 
-          {/* Alarming Statistics */}
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-card rounded-2xl p-8 shadow-xl border-4 border-destructive/20">
-              <div className="text-center">
-                <p className="font-heading font-bold text-7xl md:text-8xl text-destructive mb-4">60%</p>
-                <p className="text-xl font-semibold text-card-foreground mb-2">Cannot Multiply</p>
-                <p className="text-muted-foreground">
-                  Students struggle with basic multiplication, indicating fundamental gaps in understanding
-                </p>
-              </div>
+          {/* Statistics Cards */}
+          <div className="grid md:grid-cols-2 gap-8 mb-16">
+            <div className="bg-gradient-to-br from-accent/10 to-accent/5 rounded-2xl p-8 border-2 border-accent/20">
+              <div className="text-6xl font-heading font-bold text-accent mb-2">60%</div>
+              <p className="text-xl font-heading font-semibold text-foreground mb-2">
+                Cannot Multiply
+              </p>
+              <p className="text-muted-foreground">
+                Class 8 students struggle with basic multiplication, revealing fundamental gaps in mathematical understanding
+              </p>
             </div>
 
-            <div className="bg-card rounded-2xl p-8 shadow-xl border-4 border-destructive/20">
-              <div className="text-center">
-                <p className="font-heading font-bold text-7xl md:text-8xl text-destructive mb-4">67%</p>
-                <p className="text-xl font-semibold text-card-foreground mb-2">Cannot Subtract or Divide</p>
-                <p className="text-muted-foreground">
-                  Two-thirds of students lack mastery of essential mathematical operations
-                </p>
-              </div>
+            <div className="bg-gradient-to-br from-accent/10 to-accent/5 rounded-2xl p-8 border-2 border-accent/20">
+              <div className="text-6xl font-heading font-bold text-accent mb-2">67%</div>
+              <p className="text-xl font-heading font-semibold text-foreground mb-2">
+                Lack Division Skills
+              </p>
+              <p className="text-muted-foreground">
+                Students unable to perform division or subtraction, hindering their ability to advance in STEM fields
+              </p>
             </div>
           </div>
 
           {/* Root Causes */}
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="bg-background/10 backdrop-blur-sm rounded-xl p-6">
-              <BookOpen className="w-12 h-12 text-accent mb-4" />
-              <h3 className="font-heading font-bold text-xl mb-3">Absent Labs</h3>
-              <p className="text-secondary-foreground/80">
-                Most rural schools lack functional science laboratories, making hands-on learning impossible
-              </p>
+          <div className="bg-card rounded-2xl p-12 shadow-lg border border-border">
+            <h3 className="font-heading font-bold text-3xl mb-8 text-center text-primary">
+              Understanding the Root Causes
+            </h3>
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <div className="w-16 h-16 mx-auto bg-primary/10 rounded-xl flex items-center justify-center mb-4">
+                  <FlaskConical className="w-8 h-8 text-primary" />
+                </div>
+                <h4 className="font-heading font-bold text-lg mb-3">Absent or Inadequate Labs</h4>
+                <p className="text-sm text-muted-foreground">
+                  Most rural schools lack functional science laboratories, making practical learning impossible
+                </p>
+              </div>
+
+              <div className="text-center">
+                <div className="w-16 h-16 mx-auto bg-secondary/10 rounded-xl flex items-center justify-center mb-4">
+                  <Users className="w-8 h-8 text-secondary" />
+                </div>
+                <h4 className="font-heading font-bold text-lg mb-3">Mixed Grade Classrooms</h4>
+                <p className="text-sm text-muted-foreground">
+                  Teachers manage multiple grades simultaneously, limiting individual attention and depth of teaching
+                </p>
+              </div>
+
+              <div className="text-center">
+                <div className="w-16 h-16 mx-auto bg-accent/10 rounded-xl flex items-center justify-center mb-4">
+                  <BookOpen className="w-8 h-8 text-accent" />
+                </div>
+                <h4 className="font-heading font-bold text-lg mb-3">Limited Teaching Resources</h4>
+                <p className="text-sm text-muted-foreground">
+                  Scarce access to quality teaching materials, experiment kits, and teacher training programs
+                </p>
+              </div>
             </div>
 
-            <div className="bg-background/10 backdrop-blur-sm rounded-xl p-6">
-              <Users className="w-12 h-12 text-accent mb-4" />
-              <h3 className="font-heading font-bold text-xl mb-3">Mixed Classrooms</h3>
-              <p className="text-secondary-foreground/80">
-                Large class sizes and multi-grade teaching make personalized attention challenging
-              </p>
-            </div>
-
-            <div className="bg-background/10 backdrop-blur-sm rounded-xl p-6">
-              <AlertCircle className="w-12 h-12 text-accent mb-4" />
-              <h3 className="font-heading font-bold text-xl mb-3">Limited Resources</h3>
-              <p className="text-secondary-foreground/80">
-                Insufficient teaching materials and equipment hinder effective science instruction
+            <div className="mt-10 p-6 bg-primary/5 rounded-xl border border-primary/20">
+              <p className="text-center text-foreground font-medium">
+                <strong className="text-primary">The Impact:</strong> These challenges create a cycle where rural students fall behind in STEM education, limiting their career opportunities and India's potential for scientific innovation.
               </p>
             </div>
           </div>

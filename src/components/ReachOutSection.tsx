@@ -30,7 +30,7 @@ const ReachOutSection = () => {
 
           {/* Supporting Text */}
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-10">
-            Every contribution fuels the Vijnan Rath's mission to transform science education across India.
+            Every contribution fuels the VigyanRath's mission to transform science education across India.
             Your support can spark curiosity in thousands of young minds and build the foundation for India's scientific future.
           </p>
 

@@ -73,21 +73,29 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2">
                 <Mail className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                <a href="mailto:info@parikshan.org" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  info@parikshan.org
+                <a href="mailto:parikshanct@gmail.com" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  parikshanct@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone className="w-5 h-5 text-accent flex-shrink-0" />
-                <a href="tel:+91XXXXXXXXXX" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  +91 XXX XXX XXXX
-                </a>
+                <div className="text-sm text-muted-foreground">
+                  <a href="tel:+919840217842" className="hover:text-primary transition-colors block">
+                    +91 9840217842
+                  </a>
+                  <a href="tel:+918754409917" className="hover:text-primary transition-colors block">
+                    +91 8754409917
+                  </a>
+                </div>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
                 <span className="text-sm text-muted-foreground">
                   Parikshan Charitable Trust<br />
-                  India
+                  No: 2/18 Kamakshipuram Postal Colony,<br />
+                  1st Street Extension<br />
+                  West Mambalam,<br />
+                  Chennai-600033
                 </span>
               </li>
             </ul>

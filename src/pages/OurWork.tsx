@@ -40,7 +40,7 @@ const OurWork = () => {
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="bg-card rounded-xl p-8 shadow-lg border border-border">
                   <Microscope className="w-12 h-12 text-primary mb-4" />
-                  <h3 className="font-heading font-bold text-2xl mb-4">Vijnan Rath</h3>
+                  <h3 className="font-heading font-bold text-2xl mb-4">VigyanRath</h3>
                   <p className="text-muted-foreground mb-6">
                     Our mobile science laboratory brings hands-on experiments and activities directly to rural schools, 
                     reaching students who have never experienced practical science education.
@@ -57,7 +57,7 @@ const OurWork = () => {
                   <h3 className="font-heading font-bold text-2xl mb-4">Teacher Training</h3>
                   <p className="text-muted-foreground mb-6">
                     We empower teachers with the skills and resources to continue activity-based learning 
-                    long after the Vijnan Rath moves on, creating lasting impact in communities.
+                    long after the VigyanRath moves on, creating lasting impact in communities.
                   </p>
                   <Button variant="outline" className="w-full" disabled>
                     Learn More
