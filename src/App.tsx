@@ -13,6 +13,8 @@ import Gallery from "./pages/Gallery";
 import Testimonials from "./pages/Testimonials";
 import MediaArticles from "./pages/MediaArticles";
 import TrackVan from "./pages/TrackVan";
+import Volunteer from "./pages/Volunteer";
+import Partner from "./pages/Partner";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +32,8 @@ const App = () => (
           <Route path="/our-work/track-van" element={<TrackVan />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/get-involved" element={<GetInvolved />} />
+          <Route path="/get-involved/volunteer" element={<Volunteer />} />
+          <Route path="/get-involved/partner" element={<Partner />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/donate" element={<Donate />} />
           <Route path="/testimonials" element={<Testimonials />} />
