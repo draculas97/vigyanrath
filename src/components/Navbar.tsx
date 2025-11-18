@@ -8,6 +8,12 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import { cn } from "@/lib/utils";
 
 const Navbar = () => {
@@ -150,42 +156,99 @@ const Navbar = () => {
             >
               Home
             </Link>
-            <Link
-              to="/about"
-              onClick={() => setIsOpen(false)}
-              className={cn(
-                "block py-3 font-medium transition-colors",
-                isActive("/about")
-                  ? "text-primary"
-                  : "text-foreground hover:text-primary"
-              )}
-            >
-              About Us
-            </Link>
-            <Link
-              to="/our-work"
-              onClick={() => setIsOpen(false)}
-              className={cn(
-                "block py-3 font-medium transition-colors",
-                isActive("/our-work")
-                  ? "text-primary"
-                  : "text-foreground hover:text-primary"
-              )}
-            >
-              Our Work
-            </Link>
-            <Link
-              to="/get-involved"
-              onClick={() => setIsOpen(false)}
-              className={cn(
-                "block py-3 font-medium transition-colors",
-                isActive("/get-involved")
-                  ? "text-primary"
-                  : "text-foreground hover:text-primary"
-              )}
-            >
-              Get Involved
-            </Link>
+
+            <Accordion type="single" collapsible className="w-full">
+              {/* About Us Accordion */}
+              <AccordionItem value="about" className="border-none">
+                <AccordionTrigger className="py-3 font-medium text-foreground hover:text-primary hover:no-underline">
+                  About Us
+                </AccordionTrigger>
+                <AccordionContent className="pb-0">
+                  <Link
+                    to="/about"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 pl-4 text-sm text-foreground hover:text-primary transition-colors"
+                  >
+                    Overview
+                  </Link>
+                  <Link
+                    to="/about"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 pl-4 text-sm text-foreground hover:text-primary transition-colors"
+                  >
+                    Vision & Mission
+                  </Link>
+                  <Link
+                    to="/about/trustees"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 pl-4 text-sm text-foreground hover:text-primary transition-colors"
+                  >
+                    Board of Trustees
+                  </Link>
+                </AccordionContent>
+              </AccordionItem>
+
+              {/* Our Work Accordion */}
+              <AccordionItem value="work" className="border-none">
+                <AccordionTrigger className="py-3 font-medium text-foreground hover:text-primary hover:no-underline">
+                  Our Work
+                </AccordionTrigger>
+                <AccordionContent className="pb-0">
+                  <Link
+                    to="/our-work"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 pl-4 text-sm text-foreground hover:text-primary transition-colors"
+                  >
+                    The R3 Methodology
+                  </Link>
+                  <Link
+                    to="/our-work/track-van"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 pl-4 text-sm text-foreground hover:text-primary transition-colors"
+                  >
+                    Track Your Van
+                  </Link>
+                  <Link
+                    to="/gallery"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 pl-4 text-sm text-foreground hover:text-primary transition-colors"
+                  >
+                    Gallery
+                  </Link>
+                </AccordionContent>
+              </AccordionItem>
+
+              {/* Get Involved Accordion */}
+              <AccordionItem value="involved" className="border-none">
+                <AccordionTrigger className="py-3 font-medium text-foreground hover:text-primary hover:no-underline">
+                  Get Involved
+                </AccordionTrigger>
+                <AccordionContent className="pb-0">
+                  <Link
+                    to="/get-involved"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 pl-4 text-sm text-foreground hover:text-primary transition-colors"
+                  >
+                    Volunteer
+                  </Link>
+                  <Link
+                    to="/get-involved"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 pl-4 text-sm text-foreground hover:text-primary transition-colors"
+                  >
+                    Partner With Us
+                  </Link>
+                  <Link
+                    to="/donate"
+                    onClick={() => setIsOpen(false)}
+                    className="block py-2 pl-4 text-sm text-foreground hover:text-primary transition-colors"
+                  >
+                    Donate
+                  </Link>
+                </AccordionContent>
+              </AccordionItem>
+            </Accordion>
+
             <Link
               to="/contact"
               onClick={() => setIsOpen(false)}
