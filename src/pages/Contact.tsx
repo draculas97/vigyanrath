@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ReviewSection from "@/components/ReviewSection";
 import { Mail, Phone, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -128,6 +129,7 @@ const Contact = () => {
         </section>
       </main>
 
+      <ReviewSection />
       <Footer />
     </div>
   );

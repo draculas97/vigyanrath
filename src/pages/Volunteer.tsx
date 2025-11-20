@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ReviewSection from "@/components/ReviewSection";
 import { Users, Heart, Target, Lightbulb } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -217,6 +218,7 @@ const Volunteer = () => {
         </section>
       </main>
 
+      <ReviewSection />
       <Footer />
     </div>
   );

@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ReachOutSection from "@/components/ReachOutSection";
+import ReviewSection from "@/components/ReviewSection";
 import { Users, Target, Heart } from "lucide-react";
 
 const About = () => {
@@ -114,6 +115,7 @@ const About = () => {
         <ReachOutSection />
       </main>
 
+      <ReviewSection />
       <Footer />
     </div>
   );

@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ReachOutSection from "@/components/ReachOutSection";
+import ReviewSection from "@/components/ReviewSection";
 import R3Section from "@/components/R3Section";
 import { Microscope, GraduationCap, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -116,6 +117,7 @@ const OurWork = () => {
         <ReachOutSection />
       </main>
 
+      <ReviewSection />
       <Footer />
     </div>
   );

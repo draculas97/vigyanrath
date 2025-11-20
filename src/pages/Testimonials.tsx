@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ReachOutSection from "@/components/ReachOutSection";
+import ReviewSection from "@/components/ReviewSection";
 import { Card } from "@/components/ui/card";
 import { Quote } from "lucide-react";
 
@@ -88,6 +89,7 @@ const Testimonials = () => {
         <ReachOutSection />
       </main>
 
+      <ReviewSection />
       <Footer />
     </div>
   );

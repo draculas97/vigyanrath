@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ReviewSection from "@/components/ReviewSection";
 import { Handshake, Building2, Award, TrendingUp, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -309,6 +310,7 @@ const Partner = () => {
         </section>
       </main>
 
+      <ReviewSection />
       <Footer />
     </div>
   );
