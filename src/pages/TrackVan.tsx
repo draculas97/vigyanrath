@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ReachOutSection from "@/components/ReachOutSection";
+import ReviewSection from "@/components/ReviewSection";
 import VigyanRathMap from "@/components/VigyanRathMap";
 import { MapPin, Calendar, Navigation } from "lucide-react";
 
@@ -234,6 +235,7 @@ const TrackVan = () => {
         <ReachOutSection />
       </main>
 
+      <ReviewSection />
       <Footer />
     </div>
   );

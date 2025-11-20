@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ReviewSection from "@/components/ReviewSection";
 import { Heart, Sparkles, Package, GraduationCap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -174,6 +175,7 @@ const Donate = () => {
         </section>
       </main>
 
+      <ReviewSection />
       <Footer />
     </div>
   );

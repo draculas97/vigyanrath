@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ReachOutSection from "@/components/ReachOutSection";
+import ReviewSection from "@/components/ReviewSection";
 import { Button } from "@/components/ui/button";
 
 const Gallery = () => {
@@ -86,6 +87,7 @@ const Gallery = () => {
         <ReachOutSection />
       </main>
 
+      <ReviewSection />
       <Footer />
     </div>
   );

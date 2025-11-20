@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ReviewSection from "@/components/ReviewSection";
 import { Heart, Users, Handshake } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -131,6 +132,7 @@ const GetInvolved = () => {
         </section>
       </main>
 
+      <ReviewSection />
       <Footer />
     </div>
   );

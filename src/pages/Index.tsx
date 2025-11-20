@@ -6,6 +6,7 @@ import R3Section from "@/components/R3Section";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import ReachOutSection from "@/components/ReachOutSection";
 import SponsorThanks from "@/components/SponsorThanks";
+import ReviewSection from "@/components/ReviewSection";
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
       <TestimonialsSection />
       <SponsorThanks />
       <ReachOutSection />
+      <ReviewSection />
       <Footer />
     </div>
   );
