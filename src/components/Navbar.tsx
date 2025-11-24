@@ -59,7 +59,7 @@ const Navbar = () => {
               </DropdownMenuTrigger>
               <DropdownMenuContent className="bg-card z-50 border border-border">
                 <DropdownMenuItem asChild>
-                  <Link to="/about" className="cursor-pointer">Overview</Link>
+                  <Link to="/about/overview" className="cursor-pointer">Overview</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
                   <Link to="/about" className="cursor-pointer">Vision & Mission</Link>
@@ -165,7 +165,7 @@ const Navbar = () => {
                 </AccordionTrigger>
                 <AccordionContent className="pb-0">
                   <Link
-                    to="/about"
+                    to="/about/overview"
                     onClick={() => setIsOpen(false)}
                     className="block py-2 pl-4 text-sm text-foreground hover:text-primary transition-colors"
                   >
