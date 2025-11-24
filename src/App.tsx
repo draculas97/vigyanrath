@@ -15,6 +15,7 @@ import MediaArticles from "./pages/MediaArticles";
 import TrackVan from "./pages/TrackVan";
 import Volunteer from "./pages/Volunteer";
 import Partner from "./pages/Partner";
+import Trustees from "./pages/Trustees";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
+          <Route path="/about/trustees" element={<Trustees />} />
           <Route path="/our-work" element={<OurWork />} />
           <Route path="/our-work/track-van" element={<TrackVan />} />
           <Route path="/gallery" element={<Gallery />} />
